@@ -1,0 +1,92 @@
+In archive E:/msys32/home/Administrator/esp/hello_world/build/main/libmain.a:
+
+hello_world_main.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.Tcp_Client2 00000140  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.Tcp_Client1 00000140  00000000  00000000  00000174  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.Smart_cfg_cb 00000094  00000000  00000000  000002b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.event_handler 000000b4  00000000  00000000  00000348  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.test_task 00000168  00000000  00000000  000003fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.wifi_init_sta 000000ec  00000000  00000000  00000564  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.app_main 00000084  00000000  00000000  00000650  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .text         00000000  00000000  00000000  000006d4  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  8 .data         00000000  00000000  00000000  000006d4  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  9 .bss          00000000  00000000  00000000  000006d4  2**0
+                  ALLOC
+ 10 .rodata.str1.4 000012f2  00000000  00000000  000006d4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 11 .text.Tcp_Client2 00000382  00000000  00000000  000019c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .text.Tcp_Client1 00000386  00000000  00000000  00001d4c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text.Smart_cfg_cb 00000167  00000000  00000000  000020d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .rodata.Smart_cfg_cb 00000014  00000000  00000000  0000223c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 15 .text.event_handler 000001d0  00000000  00000000  00002250  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.test_task 00000385  00000000  00000000  00002420  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.wifi_init_sta 0000021f  00000000  00000000  000027a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text.app_main 000000ee  00000000  00000000  000029c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .rodata.__func__$8429 00000009  00000000  00000000  00002ab8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 20 .rodata.__func__$8453 0000000a  00000000  00000000  00002ac4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 21 .rodata.__func__$8400 0000000e  00000000  00000000  00002ad0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 22 .rodata.__func__$8415 0000000e  00000000  00000000  00002ae0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 23 .rodata.__func__$8387 0000000d  00000000  00000000  00002af0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 24 .bss.previousSock 00000001  00000000  00000000  00002afd  2**0
+                  ALLOC
+ 25 .bss.s_retryNum 00000004  00000000  00000000  00002b00  2**2
+                  ALLOC
+ 26 .rodata.TASK2_BIT 00000004  00000000  00000000  00002b00  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 27 .rodata.TASK1_BIT 00000004  00000000  00000000  00002b04  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 28 .rodata.CONNECTED_BIT 00000004  00000000  00000000  00002b08  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 29 .bss.wifi_EventHandle 00000004  00000000  00000000  00002b0c  2**2
+                  ALLOC
+ 30 .data.taskList 00000008  00000000  00000000  00002b0c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 31 .debug_frame  000000b8  00000000  00000000  00002b14  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 32 .debug_info   000046d9  00000000  00000000  00002bcc  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 33 .debug_abbrev 000003d3  00000000  00000000  000072a5  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 34 .debug_loc    00000937  00000000  00000000  00007678  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 35 .debug_aranges 00000050  00000000  00000000  00007faf  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 36 .debug_ranges 00000070  00000000  00000000  00007fff  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 37 .debug_line   00000f67  00000000  00000000  0000806f  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 38 .debug_str    0000209c  00000000  00000000  00008fd6  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 39 .comment      0000003c  00000000  00000000  0000b072  2**0
+                  CONTENTS, READONLY
+ 40 .xtensa.info  00000038  00000000  00000000  0000b0ae  2**0
+                  CONTENTS, READONLY
+ 41 .xt.lit       00000038  00000000  00000000  0000b0e6  2**0
+                  CONTENTS, RELOC, READONLY
+ 42 .xt.prop      0000063c  00000000  00000000  0000b11e  2**0
+                  CONTENTS, RELOC, READONLY
