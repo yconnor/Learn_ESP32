@@ -546,7 +546,7 @@ static void Tcp_Client1(void *args)
 
 			rx_buffer[len] = 0; //结束指向空，不管我们接收到什么我们都把它视为一个数组
 			if(previousSock != remoteInfo.sock){
-				ESP_LOGW(TAG,"Tcp_Client1 Received %d bytes form %s:%d",len,remoteInfo.remoteIp,remoteInfo.remotePort); //打印出我们获得的数组长度和来源地址端口等
+				ESP_LOGW(TAG,"Tcp_Client1 Received form %s:%d",remoteInfo.remoteIp,remoteInfo.remotePort); //打印出我们获得的数组长度和来源地址端口等
 				previousSock = remoteInfo.sock;
 			}
 			ESP_LOGI(TAG,"%s",rx_buffer);
@@ -651,7 +651,7 @@ static void Tcp_Client2(void *args)
 		else{
 			rx_buffer[len] = 0; //结束指向空，不管我们接收到什么我们都把它视为一个数组
 			if(previousSock != remoteInfo.sock){
-				ESP_LOGW(TAG,"Tcp_Client2 Received %d bytes form %s:%d",len,remoteInfo.remoteIp,remoteInfo.remotePort); //打印出我们获得的数组长度和来源地址端口等
+				ESP_LOGW(TAG,"Tcp_Client2 Received  form %s:%d",remoteInfo.remoteIp,remoteInfo.remotePort); //打印出我们获得的数组长度和来源地址端口等
 				previousSock = remoteInfo.sock;
 			}
 			ESP_LOGI(TAG,"%s",rx_buffer);
